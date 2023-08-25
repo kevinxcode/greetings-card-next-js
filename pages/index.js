@@ -59,7 +59,7 @@ export default function Home() {
         <div className={styles.center}>
           <div className={styles.box} >
             <div className={styles.result_button}>
-              <button className={styles.button} > @ {fullname}  </button>
+              <div className={styles.button} > @ {fullname}  </div>
             </div>
             <div className={styles.txt_box_small}>' {noted_remark} '</div>
           </div>
